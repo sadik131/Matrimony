@@ -53,3 +53,19 @@ Route::get('/fatwa', function () {
 Route::get('/course', function () {
     return view('course');
 });
+
+Route::get('/videoDetails', function () {
+    return view('videoDetails');
+});
+
+Route::get('/loginFrom', function () {
+    return view('loginFrom');
+});
+
+Route::get('/signin', function () {
+    return view('signin');
+});
+
+Route::get('/logOut', function () {
+    return view('logOut');
+});

@@ -139,7 +139,7 @@ $blogs = [
             </p>
 
             {{-- share button --}}
-            <div class="flex justify-between md:flex-row flex-col py-5">
+            <div class="flex justify-between items-center md:flex-row flex-col py-5">
                 <div>
                     <h2 class=" py-4 md:py-8  text-gray-700 text-2xl md:text-4xl">Shear:</h2>
                 </div>
