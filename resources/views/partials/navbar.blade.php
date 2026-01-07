@@ -7,22 +7,22 @@
 </head>
 <body>
     <!-- Navbar -->
-    <div class="fixed-navbar py-4  shadow-md bg-white ">
+    <div class="fixed top-0 z-50 w-full py-4  shadow-md bg-white ">
         <header class="flex justify-between items-center px-4 max-w-6xl mx-auto">
             <!-- Logo & Hamburger -->
             <div class="flex items-center gap-4">
                 <button id="menuBtn" class="md:hidden text-2xl">&#9776;</button>
-                <a href="/index.html"><img src="/img/logo.png" alt="Logo" class="w-14 cursor-pointer"></a>
+                <a href="{{ url('/') }}"><img src="/img/logo.png" alt="Logo" class="w-14 cursor-pointer"></a>
             </div>
 
             <!-- Menu Items (Desktop) -->
             <nav class="hidden md:flex gap-6 text-gray-700 font-medium">
                 <a href="{{ url("/") }}" class="hover:text-teal-500 transition">হোম</a>
-                <a href="{{ url("/about") }}" class="hover:text-teal-500 transition">আমাদের সম্পর্কে</a>
-                <a href="/blog.html" class="hover:text-teal-500 transition">বিবাহ পাঠ</a>
-                <a href="/pricing.html" class="hover:text-teal-500 transition">প্যাকেজসমূহ</a>
-                <a href="/faq.html" class="hover:text-teal-500 transition">সচরাচর জিজ্ঞাসা</a>
-                <a href="/contact.html" class="hover:text-teal-500 transition">যোগাযোগ</a>
+                <a href="{{ url('/about') }}" class="hover:text-teal-500 transition">আমাদের সম্পর্কে</a>
+                <a href="{{ url('/blog') }}" class="hover:text-teal-500 transition">বিবাহ পাঠ</a>
+                <a href="{{ url('/pricing') }}" class="hover:text-teal-500 transition">প্যাকেজসমূহ</a>
+                <a href="{{ url('/faq') }}" class="hover:text-teal-500 transition">সচরাচর জিজ্ঞাসা</a>
+                <a href="{{ url('/contact') }}" class="hover:text-teal-500 transition">যোগাযোগ</a>
             </nav>
 
             <!-- Right Icons -->
