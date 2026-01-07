@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <!-- Navbar -->
     <div class="fixed top-0 z-50 w-full py-4  shadow-md bg-white ">
@@ -56,7 +58,7 @@
                     </div>
 
                     <div
-                        class="profile-dropdown absolute right-0 mt-0 w-72 bg-white border rounded-lg  z-50 transform origin-top-right scale-95 opacity-0 transition-all duration-300 ease-in-out 
+                        class="profile-dropdown absolute right-0 mt-0 w-72 bg-white border border-[#E5E7EB] rounded-lg  z-50 transform origin-top-right scale-95 opacity-0 transition-all duration-300 ease-in-out 
                             group-hover:opacity-100 group-hover:scale-100 group-hover:pointer-events-auto pointer-events-none auto-height-dropdown">
                         <div class="text-center  p-4">
                             <div
@@ -148,13 +150,14 @@
             <button id="closeBtn" class="text-xl">&times;</button>
         </div>
         <nav class="flex flex-col p-4 gap-4 text-gray-700 font-medium">
-            <a href="/index.html" class="hover:text-teal-500 transition">হোম</a>
-            <a href="/about.html" class="hover:text-teal-500 transition">আমাদের সম্পর্কে</a>
-            <a href="/blog.html" class="hover:text-teal-500 transition">বিবাহ পাঠ</a>
-            <a href="/pricing.html" class="hover:text-teal-500 transition">প্যাকেজসমূহ</a>
-            <a href="/faq.html" class="hover:text-teal-500 transition">সচরাচর জিজ্ঞাসা</a>
-            <a href="/contact.html" class="hover:text-teal-500 transition">যোগাযোগ</a>
+            <a href="{{ url("/") }}" class="hover:text-teal-500 transition">হোম</a>
+            <a href="{{ url('/about') }}" class="hover:text-teal-500 transition">আমাদের সম্পর্কে</a>
+            <a href="{{ url('/blog') }}" class="hover:text-teal-500 transition">বিবাহ পাঠ</a>
+            <a href="{{ url('/pricing') }}" class="hover:text-teal-500 transition">প্যাকেজসমূহ</a>
+            <a href="{{ url('/faq') }}" class="hover:text-teal-500 transition">সচরাচর জিজ্ঞাসা</a>
+            <a href="{{ url('/contact') }}" class="hover:text-teal-500 transition">যোগাযোগ</a>
         </nav>
     </div>
 </body>
+
 </html>

@@ -79,23 +79,23 @@
       <ul class="mt-6 space-y-4">
         <li>
           <i class="fa fa-angle-right text-xl text-slate-400"></i>
-          <a href='/about.html' class="hover:text-teal-400 text-white md font-normal">আমাদের সম্পর্কে</a>
+          <a href="{{ url('/about') }}" class="hover:text-teal-400 text-white md font-normal">আমাদের সম্পর্কে</a>
         </li>
         <li>
           <i class="fa fa-angle-right text-xl text-slate-400"></i>
-          <a href='/privacy.html' class="hover:text-teal-400  text-white font-normal">প্রাইভেসি নীতি </a>
+          <a href="{{ url('/privacy') }}" class="hover:text-teal-400  text-white font-normal">প্রাইভেসি নীতি </a>
         </li>
         <li>
           <i class="fa fa-angle-right text-xl text-slate-400"></i>
-          <a href='/conditions.html' class="hover:text-teal-400  text-white text-md font-normal">শর্তাবলী</a>
+          <a href="{{ url('/conditions') }}" class="hover:text-teal-400  text-white text-md font-normal">শর্তাবলী</a>
         </li>
         <li>
           <i class="fa fa-angle-right text-xl text-slate-400"></i>
-          <a href='/policy.html' class="hover:text-teal-400  text-white text-md font-normal">রিফান্ড পলিসি</a>
+          <a href="{{ url('/policy') }}" class="hover:text-teal-400  text-white text-md font-normal">রিফান্ড পলিসি</a>
         </li>
         <li>
           <i class="fa fa-angle-right text-xl text-slate-400"></i>
-          <a href='/contact.html' class="hover:text-teal-400  text-white text-md font-normal">যোগাযোগ ফর্ম</a>
+          <a href="{{ url('/contact') }}" class="hover:text-teal-400  text-white text-md font-normal">যোগাযোগ ফর্ম</a>
         </li>
       </ul>
     </div>

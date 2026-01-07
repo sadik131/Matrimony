@@ -2,7 +2,7 @@
     $steps = [
         [
             'icon' => 'fa fa-user-plus',
-            'title' => 'একাউন্ট খুলুন dsfasdf',
+            'title' => 'একাউন্ট খুলুন',
             'description' => 'বিনামূল্যে রেজিস্ট্রেশন করুন',
         ],
         [

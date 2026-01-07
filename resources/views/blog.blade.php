@@ -5,28 +5,28 @@ $blogs = [
         'category' => 'কুরআন',
         'title' => 'বাক্কা নামের রহস্য',
         'excerpt' => '– আবদুল্লাহ আল মাসউদ। মক্কা শহরের নাম শুনেনি এমন মানুষ খুঁজে পাওয়া যাবে না...',
-        'link' => '/blog-details.html',
+        'link' => '/blogDetails',
     ],
     [
         'image' => '/img/blog.jpg',
         'category' => 'কুরআন',
         'title' => 'বাক্কা নামের রহস্য',
         'excerpt' => '– আবদুল্লাহ আল মাসউদ। মক্কা শহরের নাম শুনেনি এমন মানুষ খুঁজে পাওয়া যাবে না...',
-        'link' => '/blog-details.html',
+        'link' => '/blogDetails',
     ],
     [
         'image' => '/img/blog.jpg',
         'category' => 'কুরআন',
         'title' => 'বাক্কা নামের রহস্য',
         'excerpt' => '– আবদুল্লাহ আল মাসউদ। মক্কা শহরের নাম শুনেনি এমন মানুষ খুঁজে পাওয়া যাবে না...',
-        'link' => '/blog-details.html',
+        'link' => '/blogDetails',
     ],
     [
         'image' => '/img/blog.jpg',
         'category' => 'কুরআন',
         'title' => 'বাক্কা নামের রহস্য',
         'excerpt' => '– আবদুল্লাহ আল মাসউদ। মক্কা শহরের নাম শুনেনি এমন মানুষ খুঁজে পাওয়া যাবে না...',
-        'link' => '/blog-details.html',
+        'link' => '/blogDetails',
     ],
     
 ];
