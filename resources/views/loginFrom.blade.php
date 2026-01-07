@@ -51,7 +51,7 @@
       </div>
 
       <!-- Submit Button -->
-      <button type="submit" class="w-full flex items-center cursor-pointer justify-center gap-2 py-3 text-white font-semibold rounded-full bg-gradient-to-r from-teal-500 to-sky-500 hover:opacity-90 shadow-lg">
+      <button type="submit" class="w-full flex items-center cursor-pointer justify-center gap-2 py-3 text-white font-semibold rounded-full bg-linear-to-r from-teal-500 to-sky-500 hover:opacity-90 shadow-lg">
         <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A11.953 11.953 0 0112 15c2.206 0 4.262.635 5.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0z" />
         </svg>

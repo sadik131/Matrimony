@@ -16,7 +16,7 @@
             'description' => 'বয়স, উপজেলা, পেশা, শিক্ষাগত যোগ্যতা সহ অনেক ফিল্টার ব্যবহার করুন।',
         ],
         [
-            'icon' => 'fa fa-lightbulb-o',
+            'icon' => 'fa-regular fa-lightbulb',
             'title' => 'বায়োডাটা সাজেশন পান',
             'description' => 'আপনার পছন্দ অনুযায়ী বায়োডাটা সাজেশন পান।',
         ],
@@ -26,7 +26,7 @@
             'description' => 'পছন্দ হলে সরাসরি অভিভাবকের সাথে যোগাযোগ করুন।',
         ],
         [
-            'icon' => 'fa fa-check-square-o',
+            'icon' => 'fa-regular fa-square-check',
             'title' => 'বিবাহ সম্পন্ন করুন',
             'description' => 'খোঁজ নিয়ে সুন্নতি বিবাহ সম্পন্ন করুন।',
         ],

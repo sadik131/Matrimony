@@ -18,20 +18,20 @@
     </div>
     {{-- slider here --}}
 
+    
     <!-- Input Search Form Start -->
-
     <x-search-form />
-
     <!-- Input Search Form End -->
 
+
+    
     <!-- Data Link Button Start -->
-
     <x-biodata-cta />
-
     <!-- Data Link Button End -->
 
-    <!-- Latest card start -->
 
+    
+    <!-- Latest card start -->
     <div class="bg-[#0c1f35] py-6 my-10">r
       <div class="max-w-6xl mx-auto px-4">
         <div class="flex justify-between items-center mb-6">
@@ -59,14 +59,14 @@
 
       </div>
     </div>
-
     <!-- Latest card end -->
 
+
+    
     <!-- Momin joti work start -->
-
     <x-Mominjoti />
-
     <!-- Momin joti work end -->
+
 
     <!-- feature CV start -->
 

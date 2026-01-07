@@ -62,7 +62,7 @@
                             group-hover:opacity-100 group-hover:scale-100 group-hover:pointer-events-auto pointer-events-none auto-height-dropdown">
                         <div class="text-center  p-4">
                             <div
-                                class="w-20 h-20 mx-auto rounded-full bg-gradient-to-r from-teal-500 to-teal-400 flex items-center justify-center text-white">
+                                class="w-20 h-20 mx-auto rounded-full bg-linear-to-r from-teal-500 to-teal-400 flex items-center justify-center text-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

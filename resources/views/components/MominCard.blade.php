@@ -4,7 +4,7 @@
     'description'
 ])
 
-<div class="bg-white rounded-2xl shadow-[0_10px_20px_rgba(0,_0,_0,_0.05)] p-6 text-center shadow-lg transition">
+<div class="bg-white rounded-2xl p-6 text-center shadow-lg transition">
             <div class="text-5xl mb-4 text-teal-600">
                 <!-- Replace with icon -->
                  <i class="{{ $icon }}"></i>
