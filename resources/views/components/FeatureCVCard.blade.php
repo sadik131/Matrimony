@@ -25,7 +25,7 @@
 
     <!-- Info -->
     <div class="p-4">
-        <table class="w-full mb-4">
+        <table class="w-full mb-4 text-[#374151]">
             <tbody>
                 <tr class="border-b border-t border-gray-200">
                     <td class="py-2 text-sm border-r border-r-[#E5E7EB]">বৈবাহিক অবস্থা</td>

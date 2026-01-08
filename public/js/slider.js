@@ -1,96 +1,64 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const track = document.querySelector('.slider-track');
-    const slides = Array.from(document.querySelectorAll('.slider-slide'));
-    const nextBtn = document.querySelector('.slider-next');
-    const prevBtn = document.querySelector('.slider-prev');
-    const container = document.querySelector('.slider-container');
+document.addEventListener('DOMContentLoaded', () => {
 
-    if (!track || slides.length === 0) return;
+  const slides = document.getElementById('slides');
+  const slideItems = slides.children;
+  const prevBtn = document.getElementById('prev');
+  const nextBtn = document.getElementById('next');
+  const dots = document.querySelectorAll('[data-slide]');
 
-    let currentIndex = 0;
-    let slideWidth = slides[0].offsetWidth;
-    const gap = 16;
-    const slideDuration = 3000;
-    let autoSlideInterval;
+  if (!slides || slideItems.length === 0) return;
 
-    function getVisibleCount() {
-        if (window.innerWidth <= 480) return 1;
-        if (window.innerWidth <= 768) return 2;
-        return 3;
-    }
+  let index = 0;
+  const total = slideItems.length;
+  let autoSlide;
 
-    let visibleCount = getVisibleCount();
+  function updateSlider() {
+    slides.style.transform = `translateX(-${index * 100}%)`;
 
-    /* 🔁 CLONE LOGIC */
-    const firstClones = slides.slice(0, visibleCount).map(slide => slide.cloneNode(true));
-    const lastClones = slides.slice(-visibleCount).map(slide => slide.cloneNode(true));
+    dots.forEach(dot => dot.classList.remove('opacity-100'));
+    dots[index]?.classList.add('opacity-100');
+  }
 
-    lastClones.forEach(clone => track.insertBefore(clone, slides[0]));
-    firstClones.forEach(clone => track.appendChild(clone));
+  function nextSlide() {
+    index = (index + 1) % total;
+    updateSlider();
+  }
 
-    const allSlides = document.querySelectorAll('.slider-slide');
+  function prevSlide() {
+    index = (index - 1 + total) % total;
+    updateSlider();
+  }
 
-    currentIndex = visibleCount;
+  function startAutoSlide() {
+    autoSlide = setInterval(nextSlide, 4000);
+  }
 
-    function updateSlider(transition = true) {
-        track.style.transition = transition ? 'transform 0.5s ease-in-out' : 'none';
-        track.style.transform = `translateX(-${currentIndex * (slideWidth + gap)}px)`;
-    }
+  function stopAutoSlide() {
+    clearInterval(autoSlide);
+  }
 
-    updateSlider(false);
-
-    function nextSlide() {
-        currentIndex++;
-        updateSlider();
-
-        if (currentIndex === allSlides.length - visibleCount) {
-            setTimeout(() => {
-                currentIndex = visibleCount;
-                updateSlider(false);
-            }, 500);
-        }
-    }
-
-    function prevSlide() {
-        currentIndex--;
-        updateSlider();
-
-        if (currentIndex === 0) {
-            setTimeout(() => {
-                currentIndex = allSlides.length - visibleCount * 2;
-                updateSlider(false);
-            }, 500);
-        }
-    }
-
-    function startAutoSlide() {
-        autoSlideInterval = setInterval(nextSlide, slideDuration);
-    }
-
-    function stopAutoSlide() {
-        clearInterval(autoSlideInterval);
-    }
-
+  nextBtn.addEventListener('click', () => {
+    stopAutoSlide();
+    nextSlide();
     startAutoSlide();
+  });
 
-    nextBtn.addEventListener('click', () => {
-        stopAutoSlide();
-        nextSlide();
-        startAutoSlide();
+  prevBtn.addEventListener('click', () => {
+    stopAutoSlide();
+    prevSlide();
+    startAutoSlide();
+  });
+
+  dots.forEach(dot => {
+    dot.addEventListener('click', () => {
+      index = parseInt(dot.dataset.slide);
+      updateSlider();
     });
+  });
 
-    prevBtn.addEventListener('click', () => {
-        stopAutoSlide();
-        prevSlide();
-        startAutoSlide();
-    });
+  slides.addEventListener('mouseenter', stopAutoSlide);
+  slides.addEventListener('mouseleave', startAutoSlide);
 
-    container.addEventListener('mouseenter', stopAutoSlide);
-    container.addEventListener('mouseleave', startAutoSlide);
-
-    window.addEventListener('resize', () => {
-        slideWidth = slides[0].offsetWidth;
-        visibleCount = getVisibleCount();
-        updateSlider(false);
-    });
+  updateSlider();
+  startAutoSlide();
 });

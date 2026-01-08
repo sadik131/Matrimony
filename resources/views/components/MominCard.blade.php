@@ -9,8 +9,8 @@
                 <!-- Replace with icon -->
                  <i class="{{ $icon }}"></i>
             </div>
-            <h3 class="text-xl font-semibold mb-2">{{ $title }}</h3>
-            <p class="text-gray-600 text-sm">
+            <h3 class="text-xl text-[#262626] font-semibold mb-2">{{ $title }}</h3>
+            <p class="text-[#4b5563] text-sm">
                 {{ $description }}
             </p>
         </div>

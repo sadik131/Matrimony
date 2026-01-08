@@ -1,54 +1,54 @@
 @php
-$cards = [
+  $cards = [
     [
-        'image' => '/img/data (3).png',
-        'code' => 'MJ-108584',
-        'status' => 'অবিবাহিত',
-        'location' => 'কিশোরগঞ্জ',
-        'birth_year' => '১৯৯৯',
-        'profession' => 'মাদ্রাসার শিক্ষক',
+      'image' => '/img/data (3).png',
+      'code' => 'MJ-108584',
+      'status' => 'অবিবাহিত',
+      'location' => 'কিশোরগঞ্জ',
+      'birth_year' => '১৯৯৯',
+      'profession' => 'মাদ্রাসার শিক্ষক',
     ],
     [
-        'image' => '/img/data (3).png',
-        'code' => 'MJ-108584',
-        'status' => 'অবিবাহিত',
-        'location' => 'কিশোরগঞ্জ',
-        'birth_year' => '১৯৯৯',
-        'profession' => 'মাদ্রাসার শিক্ষক',
+      'image' => '/img/data (3).png',
+      'code' => 'MJ-108584',
+      'status' => 'অবিবাহিত',
+      'location' => 'কিশোরগঞ্জ',
+      'birth_year' => '১৯৯৯',
+      'profession' => 'মাদ্রাসার শিক্ষক',
     ],
     [
-        'image' => '/img/data (3).png',
-        'code' => 'MJ-108584',
-        'status' => 'অবিবাহিত',
-        'location' => 'কিশোরগঞ্জ',
-        'birth_year' => '১৯৯৯',
-        'profession' => 'মাদ্রাসার শিক্ষক',
+      'image' => '/img/data (3).png',
+      'code' => 'MJ-108584',
+      'status' => 'অবিবাহিত',
+      'location' => 'কিশোরগঞ্জ',
+      'birth_year' => '১৯৯৯',
+      'profession' => 'মাদ্রাসার শিক্ষক',
     ],
     [
-        'image' => '/img/data (3).png',
-        'code' => 'MJ-108584',
-        'status' => 'অবিবাহিত',
-        'location' => 'কিশোরগঞ্জ',
-        'birth_year' => '১৯৯৯',
-        'profession' => 'মাদ্রাসার শিক্ষক',
+      'image' => '/img/data (3).png',
+      'code' => 'MJ-108584',
+      'status' => 'অবিবাহিত',
+      'location' => 'কিশোরগঞ্জ',
+      'birth_year' => '১৯৯৯',
+      'profession' => 'মাদ্রাসার শিক্ষক',
     ],
     [
-        'image' => '/img/data (3).png',
-        'code' => 'MJ-108584',
-        'status' => 'অবিবাহিত',
-        'location' => 'কিশোরগঞ্জ',
-        'birth_year' => '১৯৯৯',
-        'profession' => 'মাদ্রাসার শিক্ষক',
+      'image' => '/img/data (3).png',
+      'code' => 'MJ-108584',
+      'status' => 'অবিবাহিত',
+      'location' => 'কিশোরগঞ্জ',
+      'birth_year' => '১৯৯৯',
+      'profession' => 'মাদ্রাসার শিক্ষক',
     ],
     [
-        'image' => '/img/data (3).png',
-        'code' => 'MJ-108584',
-        'status' => 'অবিবাহিত',
-        'location' => 'কিশোরগঞ্জ',
-        'birth_year' => '১৯৯৯',
-        'profession' => 'মাদ্রাসার শিক্ষক',
+      'image' => '/img/data (3).png',
+      'code' => 'MJ-108584',
+      'status' => 'অবিবাহিত',
+      'location' => 'কিশোরগঞ্জ',
+      'birth_year' => '১৯৯৯',
+      'profession' => 'মাদ্রাসার শিক্ষক',
     ],
-];
+  ];
 @endphp
 
 <div>
@@ -59,16 +59,10 @@ $cards = [
   <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 pb-4 gap-5 ">
 
     @foreach($cards as $card)
-            <x-FeatureCVCard 
-                :image="$card['image']"
-                :code="$card['code']"
-                :status="$card['status']"
-                :location="$card['location']"
-                :birth_year="$card['birth_year']"
-                :profession="$card['profession']"
-                details_link="/bio-data-details"
-            />
-        @endforeach
+      <x-FeatureCVCard :image="$card['image']" :code="$card['code']" :status="$card['status']"
+        :location="$card['location']" :birth_year="$card['birth_year']" :profession="$card['profession']"
+        details_link="/bio-data-details" />
+    @endforeach
 
   </div>
   <div class="flex justify-center">

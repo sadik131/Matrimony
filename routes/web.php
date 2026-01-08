@@ -73,6 +73,9 @@ Route::get('/logOut', function () {
 Route::get('/admin-dashboard', function () {
     return view('AdminDashboard');
 });
+Route::get('/dashboard', function () {
+    return view('Dashboard');
+});
 
 Route::get('/withList', function () {
     return view('wishList');
