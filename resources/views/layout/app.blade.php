@@ -34,6 +34,8 @@
 
 
 
+        <script src="{{ asset('js/slider.js') }}"></script>
+
 </body>
 
 </html>

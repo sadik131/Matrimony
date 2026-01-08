@@ -69,3 +69,31 @@ Route::get('/signin', function () {
 Route::get('/logOut', function () {
     return view('logOut');
 });
+
+Route::get('/admin-dashboard', function () {
+    return view('AdminDashboard');
+});
+
+Route::get('/withList', function () {
+    return view('wishList');
+});
+
+Route::get('/disliked', function () {
+    return view('Disliked');
+});
+
+Route::get('/orders', function () {
+    return view('Orders');
+});
+
+Route::get('/support', function () {
+    return view('Support');
+});
+
+Route::get('/setting', function () {
+    return view('Setting');
+});
+
+Route::get('/delete', function () {
+    return view('Delete');
+});

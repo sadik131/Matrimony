@@ -14,7 +14,7 @@
         </x-google-button>
 
         {{-- Email --}}
-        <a href="/login">
+        <a href="/loginFrom">
             <x-primary-button>
                 <i class="fa fa-envelope text-[#FC5158] text-xl mr-2"></i>
                 ইমেইল দিয়ে একাউন্ট তৈরি করুন
