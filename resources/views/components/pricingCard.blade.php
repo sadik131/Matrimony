@@ -25,7 +25,7 @@
         <!-- Button -->
         <a href="{{ $buttonLink }}"
            class="w-full flex justify-center items-center gap-2
-                  bg-gradient-to-r from-teal-500 to-sky-500
+                  bg-linear-to-r from-teal-500 to-sky-500
                   text-white text-lg px-6 py-2 rounded-md hover:opacity-90">
             <i class="fa fa-shopping-bag"></i>
             ক্রয় করুন

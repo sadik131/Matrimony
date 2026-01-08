@@ -29,7 +29,7 @@ relative md:-mt-20 ">
     <div class="w-full md:justify-end flex">
       <a href="/dashboard"
         
-        class="w-full md:w-auto flex justify-center items-center gap-2 bg-gradient-to-r from-teal-500 to-sky-500 text-white px-6 py-2 rounded-md hover:opacity-90"
+        class="w-full md:w-auto flex justify-center items-center gap-2 bg-linear-to-r from-teal-500 to-sky-500 text-white px-6 py-2 rounded-md hover:opacity-90"
       >
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M16.65 16.65A7.5 7.5 0 1110 2.5a7.5 7.5 0 016.65 14.15z" />
