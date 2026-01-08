@@ -14,7 +14,7 @@
             </div>
 
             <h2 class="text-lg font-semibold text-gray-700">বায়োডাটার অবস্থা</h2>
-            <span class="inline-block text-sm px-3 py-0.5 bg-teal-500 text-white rounded-full">অসম্পূর্ণ</span>
+            <span class="inline-block mb-0 text-sm px-3 py-0.5 bg-teal-500 text-white rounded-full">অসম্পূর্ণ</span>
             <br>
             <a href="/bio-data.html">
                 <button

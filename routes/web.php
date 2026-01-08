@@ -97,3 +97,15 @@ Route::get('/setting', function () {
 Route::get('/delete', function () {
     return view('Delete');
 });
+
+Route::get('/payment', function () {
+    return view('Payment');
+});
+
+Route::get('/connection', function () {
+    return view('Connection');
+});
+
+Route::get('/bio-data-details', function () {
+    return view('BioDataDetails');
+});

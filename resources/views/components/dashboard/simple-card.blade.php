@@ -19,7 +19,7 @@
 
     <a href="{{ $btnLink }}">
         <button
-            class="mt-3 bg-linear-to-r from-teal-500 to-sky-500 px-3 py-1 rounded-full">
+            class="mt-3 cursor-pointer bg-linear-to-r from-teal-500 to-sky-500 px-3 py-1 rounded-full">
             {{ $btnText }}
         </button>
     </a>

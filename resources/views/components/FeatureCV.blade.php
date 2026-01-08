@@ -66,7 +66,7 @@ $cards = [
                 :location="$card['location']"
                 :birth_year="$card['birth_year']"
                 :profession="$card['profession']"
-                details-link="/bio-data-details.html"
+                details_link="/bio-data-details"
             />
         @endforeach
 

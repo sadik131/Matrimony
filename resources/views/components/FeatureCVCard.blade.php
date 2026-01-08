@@ -5,7 +5,7 @@
     'location',
     'birth_year',
     'profession',
-    'details_link' => '#'
+    'details_link'
 ])
 
 
