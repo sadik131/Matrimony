@@ -10,7 +10,7 @@
  <footer class="tracking-wide  bg-[#0D2735]   pt-12 pb-6 ">
   <div class="flex flex-wrap justify-between gap-10 max-w-6xl mx-auto px-4">
     <div class="max-w-2xl">
-      <a href='/index.html'>
+      <a href='/index'>
         <img src="/img/logo.png" alt="logo" class="w-24" />
       </a>
       <div class="mt-6">

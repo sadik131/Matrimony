@@ -47,13 +47,13 @@
                         <x-dashboard.white-card number="0" title="আপনার বায়োডাটা তালিকাভুক্ত হয়েছে"
                             desc="এটি জন্য আপনার বায়োডাটা পছন্দের তালিকায় রয়েছে।" />
 
-                        <x-dashboard.icon-link-card href="/wishlist.html" img="/img/heart.png" number="0"
+                        <x-dashboard.icon-link-card href="/withList" img="/img/heart.png" number="0"
                             title="পছন্দের তালিকা" desc="আপনার পছন্দের তালিকাভুক্ত বায়োডাটা সমূহ।" />
 
-                        <x-dashboard.icon-link-card href="/disliked.html" img="/img/heart (1).png" number="0"
+                        <x-dashboard.icon-link-card href="/disliked" img="/img/heart (1).png" number="0"
                             title="অপছন্দের তালিকা" desc="আপনার অপছন্দের তালিকাভুক্ত বায়োডাটা সমূহ।" />
 
-                        <x-dashboard.icon-link-card href="/orders.html" img="/img/shopping-bag.png" number="0"
+                        <x-dashboard.icon-link-card href="/orders" img="/img/shopping-bag.png" number="0"
                             title="আমার ক্রয়সমূহ" desc="আপনার অপছন্দের তালিকাভুক্ত বায়োডাটা সমূহ।" />
                     </div>
                 </div>

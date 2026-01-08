@@ -27,7 +27,7 @@ relative md:-mt-20 ">
 
     <!-- Search Button -->
     <div class="w-full md:justify-end flex">
-      <a href="/dashboard.html"
+      <a href="/dashboard"
         
         class="w-full md:w-auto flex justify-center items-center gap-2 bg-gradient-to-r from-teal-500 to-sky-500 text-white px-6 py-2 rounded-md hover:opacity-90"
       >

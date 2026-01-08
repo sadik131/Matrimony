@@ -2,7 +2,7 @@
     'title',
     'titleColor' => 'text-teal-600',
     'features' => [],
-    'buttonLink' => '/payment.html'
+    'buttonLink' => '/payment'
 ])
 
 <div class="bg-white rounded-lg border border-[#E5E7EB] overflow-hidden">

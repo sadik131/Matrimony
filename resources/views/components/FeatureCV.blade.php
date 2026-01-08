@@ -72,7 +72,7 @@ $cards = [
 
   </div>
   <div class="flex justify-center">
-    <a href="/dashboard.html"
+    <a href="/dashboard"
       class=" md:w-auto text-sm flex justify-center items-center gap-2 bg-linear-to-r from-teal-500 to-sky-500 text-white px-4 py-2 rounded-md hover:opacity-90">
 
       আরও দেখুন

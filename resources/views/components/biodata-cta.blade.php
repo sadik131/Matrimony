@@ -6,7 +6,7 @@
   
     <!-- Left Button -->
     <div>
-      <a href="/bio-data.html">
+      <a href="/bio-data">
         <button
         type="button"
         class="w-full md:w-[400px] flex items-center justify-center gap-2 px-6 py-4 md:py-3 text-white text-lg md:text-x font-semibold rounded-full bg-gradient-to-r from-teal-500 to-sky-500  transition"

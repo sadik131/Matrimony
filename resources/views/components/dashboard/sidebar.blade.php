@@ -16,7 +16,7 @@
             <h2 class="text-lg font-semibold text-gray-700">বায়োডাটার অবস্থা</h2>
             <span class="inline-block mb-0 text-sm px-3 py-0.5 bg-teal-500 text-white rounded-full">অসম্পূর্ণ</span>
             <br>
-            <a href="/bio-data.html">
+            <a href="/bio-data">
                 <button
                     class="bg-teal-500 hover:bg-teal-600 text-white px-5 py-2 mt-2 rounded-full shadow-md transition duration-200">
                     বায়োডাটা সম্পূর্ণ করুন
@@ -32,7 +32,7 @@
                 <span class="text-xl">⌘</span> ড্যাশবোর্ড
             </x-dashboard.sidebar-link>
 
-            <x-dashboard.sidebar-link href="/bio-data.html" icon="fa fa-edit">
+            <x-dashboard.sidebar-link href="/bio-data" icon="fa fa-edit">
                 বায়োডাটা এডিট করুন
             </x-dashboard.sidebar-link>
 

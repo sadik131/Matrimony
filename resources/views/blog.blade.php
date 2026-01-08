@@ -37,28 +37,28 @@ $videos = [
         'category' => 'কুরআন',
         'title' => 'বাক্কা নামের রহস্য',
         'excerpt' => '– আবদুল্লাহ আল মাসউদ। মক্কা শহরের নাম শুনেনি এমন মানুষ খুঁজে পাওয়া যাবে না...',
-        'link' => '/video.html',
+        'link' => '/videoDetails',
     ],
     [
         'image' => '/img/video.jpg',
         'category' => 'কুরআন',
         'title' => 'বাক্কা নামের রহস্য',
         'excerpt' => '– আবদুল্লাহ আল মাসউদ। মক্কা শহরের নাম শুনেনি এমন মানুষ খুঁজে পাওয়া যাবে না...',
-        'link' => '/video.html',
+        'link' => '/videoDetails',
     ],
     [
         'image' => '/img/video.jpg',
         'category' => 'কুরআন',
         'title' => 'বাক্কা নামের রহস্য',
         'excerpt' => '– আবদুল্লাহ আল মাসউদ। মক্কা শহরের নাম শুনেনি এমন মানুষ খুঁজে পাওয়া যাবে না...',
-        'link' => '/video.html',
+        'link' => '/videoDetails',
     ],
     [
         'image' => '/img/video.jpg',
         'category' => 'কুরআন',
         'title' => 'বাক্কা নামের রহস্য',
         'excerpt' => '– আবদুল্লাহ আল মাসউদ। মক্কা শহরের নাম শুনেনি এমন মানুষ খুঁজে পাওয়া যাবে না...',
-        'link' => '/video.html',
+        'link' => '/videoDetails',
     ],
     
 ];

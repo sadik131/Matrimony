@@ -109,3 +109,7 @@ Route::get('/connection', function () {
 Route::get('/bio-data-details', function () {
     return view('BioDataDetails');
 });
+
+Route::get('/bio-data', function () {
+    return view('BioData');
+});

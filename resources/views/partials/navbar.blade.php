@@ -72,7 +72,7 @@
                             <h2 class="text-lg font-semibold text-gray-700 "> বায়োডাটার অবস্থা</h2>
                             <span
                                 class="inline-block text-sm px-3 py-0.5 bg-teal-500 text-white rounded-full">অসম্পূর্ণ</span>
-                            <a href="/bio-data.html">
+                            <a href="/bio-data">
                                 <button
                                     class="bg-teal-500 hover:bg-teal-600 text-white px-5 py-2 mt-2 rounded-full shadow-md transition duration-200">
                                     বায়োডাটা সম্পূর্ণ করুন
@@ -82,56 +82,56 @@
 
                         <div x-data="{ path: window.location.pathname }"
                             class="px-4 pb-4 space-y-2 text-sm font-medium text-gray-700">
-                            <a href="/admin-dashboard.html"
-                                :class="path === '/admin-dashboard.html' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
+                            <a href="/admin-dashboard"
+                                :class="path === '/admin-dashboard' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
                                 class="flex items-center gap-3 px-3  rounded">
                                 <span class="text-xl">⌘</span> ড্যাশবোর্ড
                             </a>
 
-                            <a href="/bio-data.html"
-                                :class="path === '/bio-data.html' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
+                            <a href="/bio-data"
+                                :class="path === '/bio-data' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
                                 class="flex items-center gap-3 px-3  rounded">
                                 <i class="fa fa-edit text-lg"></i> বায়োডাটা এডিট করুন
                             </a>
 
-                            <a href="/wishlist.html"
-                                :class="path === '/wishlist.html' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
+                            <a href="/withList"
+                                :class="path === '/withList' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
                                 class="flex items-center gap-3 px-3  rounded">
                                 <i class="fa fa-heart text-lg text-gray-500"></i> পছন্দের তালিকা
                             </a>
 
-                            <a href="/disliked.html"
-                                :class="path === '/disliked.html' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
+                            <a href="/disliked"
+                                :class="path === '/disliked' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
                                 class="flex items-center gap-3 px-3  rounded">
                                 <i class="fa fa-heart text-lg text-gray-500"></i> অপছন্দের তালিকা
                             </a>
 
-                            <a href="/orders.html"
-                                :class="path === '/orders.html' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
+                            <a href="/orders"
+                                :class="path === '/orders' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
                                 class="flex items-center gap-3 px-3  rounded">
                                 <i class="fa fa-shopping-bag text-lg text-gray-500"></i> আমার ক্রয়সমূহ
                             </a>
 
-                            <a href="/support.html"
-                                :class="path === '/support.html' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
+                            <a href="/support"
+                                :class="path === '/support' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
                                 class="flex items-center gap-3 px-3  rounded">
                                 <i class="fa fa-flag text-lg text-gray-500"></i> সাপোর্ট & রিপোর্ট
                             </a>
 
-                            <a href="/setting.html"
-                                :class="path === '/setting.html' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
+                            <a href="/setting"
+                                :class="path === '/setting' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
                                 class="flex items-center gap-3 px-3 rounded">
                                 <i class="fa fa-gear text-lg text-gray-500"></i> সেটিংস
                             </a>
 
-                            <a href="/delete.html"
-                                :class="path === '/delete.html' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
+                            <a href="/delete"
+                                :class="path === '/delete' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
                                 class="flex items-center gap-3 px-3  rounded">
                                 <i class="fa fa-trash-o text-lg text-gray-500"></i> ডিলিট বায়োডাটা
                             </a>
 
-                            <a href="/logout.html"
-                                :class="path === '/logout.html' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
+                            <a href="/logOut"
+                                :class="path === '/logOut' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
                                 class="flex items-center gap-3 px-3  rounded">
                                 <i class="fa fa-sign-out text-lg text-gray-500"></i> লগআউট
                             </a>
