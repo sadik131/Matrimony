@@ -1,15 +1,24 @@
 @import "tailwindcss";
 
-/* Bangla Font */
+/* =========================
+   Bangla Font (DEFINE FIRST)
+========================= */
 @font-face {
-    font-family: 'LiShobuj';
-    src: url('/font/Li Shobuj Nolua Unicode copy.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'LiShobuj';
+  src: url('../fonts/LiShobujNoluaUnicode.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-/* Force only h2 */
-h2 {
-    font-family: 'LiShobuj' !important;
+/* =========================
+   Apply font via Tailwind base
+========================= */
+@layer base {
+  h2 {
+    font-family: 'LiShobuj', 'Arial Unicode MS', Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.25;
+  }
 }

@@ -90,49 +90,49 @@
 
                             <a href="/bio-data"
                                 :class="path === '/bio-data' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
-                                class="flex items-center gap-3 px-3  rounded">
+                                class="mt-2 flex items-center gap-3 px-3  rounded">
                                 <i class="fa fa-edit text-lg"></i> বায়োডাটা এডিট করুন
                             </a>
 
                             <a href="/withList"
                                 :class="path === '/withList' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
-                                class="flex items-center gap-3 px-3  rounded">
+                                class="mt-2 flex items-center gap-3 px-3  rounded">
                                 <i class="fa fa-heart text-lg text-gray-500"></i> পছন্দের তালিকা
                             </a>
 
                             <a href="/disliked"
                                 :class="path === '/disliked' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
-                                class="flex items-center gap-3 px-3  rounded">
+                                class="mt-2 flex items-center gap-3 px-3  rounded">
                                 <i class="fa fa-heart text-lg text-gray-500"></i> অপছন্দের তালিকা
                             </a>
 
                             <a href="/orders"
                                 :class="path === '/orders' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
-                                class="flex items-center gap-3 px-3  rounded">
+                                class="mt-2 flex items-center gap-3 px-3  rounded">
                                 <i class="fa fa-shopping-bag text-lg text-gray-500"></i> আমার ক্রয়সমূহ
                             </a>
 
                             <a href="/support"
                                 :class="path === '/support' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
-                                class="flex items-center gap-3 px-3  rounded">
+                                class="mt-2 flex items-center gap-3 px-3  rounded">
                                 <i class="fa fa-flag text-lg text-gray-500"></i> সাপোর্ট & রিপোর্ট
                             </a>
 
                             <a href="/setting"
                                 :class="path === '/setting' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
-                                class="flex items-center gap-3 px-3 rounded">
+                                class="mt-2 flex items-center gap-3 px-3 rounded">
                                 <i class="fa fa-gear text-lg text-gray-500"></i> সেটিংস
                             </a>
 
                             <a href="/delete"
                                 :class="path === '/delete' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
-                                class="flex items-center gap-3 px-3  rounded">
-                                <i class="fa fa-trash-o text-lg text-gray-500"></i> ডিলিট বায়োডাটা
+                                class="mt-2 flex items-center gap-3 px-3  rounded">
+                                <i class="fa-regular fa-trash-can text-lg text-gray-500"></i> ডিলিট বায়োডাটা
                             </a>
 
                             <a href="/logOut"
                                 :class="path === '/logOut' ? 'bg-gray-50 text-teal-600 font-semibold' : 'hover:bg-gray-50 transition'"
-                                class="flex items-center gap-3 px-3  rounded">
+                                class="mt-2 flex items-center gap-3 px-3  rounded">
                                 <i class="fa fa-sign-out text-lg text-gray-500"></i> লগআউট
                             </a>
                         </div>

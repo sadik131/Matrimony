@@ -1,10 +1,9 @@
-<h2 class="py-5 text-center text-xl md:text-3xl  text-teal-800">
+<x-headingNormal title="আমাদের স্বকীয়তা"/>
 
-    আমাদের স্বকীয়তা </h2>
 <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 mb-5 gap-5">
     <!-- Box 1 -->
    <x-individualCard
-        title="শরীয়া ভিত্তিক বিবাহ কার্যক্রম"
+        title="শরীয়া ভিওির্ক বিবাহ কার্যক্রম"
         text="শরীয়াহ মোতাবেক পরিচালিত আমাদের বিবাহ কার্যক্রমে ইসলামী আদর্শ ও নীতিমালা পুরোপুরিভাবে অনুসরণ করা হয়।"
     />
 
