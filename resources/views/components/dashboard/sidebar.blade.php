@@ -1,3 +1,8 @@
+@php
+    $currentPath = request()->path();
+@endphp
+
+
 <div :class="sidebarOpen ? 'w-[355px] md:w-72' : 'w-0'"
     class="transition-all duration-300 bg-gray-100 md:bg-white shadow-lg overflow-hidden shrink-0">
     <div class="p-4">
@@ -28,39 +33,39 @@
         <div x-data="{ currentPath: window.location.pathname }"
             class="px-4 md:px-0 pb-4 space-y-2 text-sm font-medium text-gray-700">
 
-            <x-dashboard.sidebar-link href="/admin-dashboard">
+            <x-dashboard.sidebar-link :current-path="$currentPath" href="/admin-dashboard">
                 <span class="text-xl">⌘</span> ড্যাশবোর্ড
             </x-dashboard.sidebar-link>
 
-            <x-dashboard.sidebar-link href="/bio-data" icon="fa fa-edit">
+            <x-dashboard.sidebar-link :current-path="$currentPath" href="/bio-data" icon="fa fa-edit">
                 বায়োডাটা এডিট করুন
             </x-dashboard.sidebar-link>
 
-            <x-dashboard.sidebar-link href="/withList" icon="fa fa-heart">
+            <x-dashboard.sidebar-link :current-path="$currentPath" href="/withList" icon="fa fa-heart">
                 পছন্দের তালিকা
             </x-dashboard.sidebar-link>
 
-            <x-dashboard.sidebar-link href="/disliked" icon="fa fa-heart">
+            <x-dashboard.sidebar-link :current-path="$currentPath" href="/disliked" icon="fa fa-heart">
                 অপছন্দের তালিকা
             </x-dashboard.sidebar-link>
 
-            <x-dashboard.sidebar-link href="/orders" icon="fa fa-shopping-bag">
+            <x-dashboard.sidebar-link :current-path="$currentPath" href="/orders" icon="fa fa-shopping-bag">
                 আমার ক্রয়সমূহ
             </x-dashboard.sidebar-link>
 
-            <x-dashboard.sidebar-link href="/support" icon="fa fa-flag">
+            <x-dashboard.sidebar-link :current-path="$currentPath" href="/support" icon="fa fa-flag">
                 সাপোর্ট & রিপোর্ট
             </x-dashboard.sidebar-link>
 
-            <x-dashboard.sidebar-link href="/setting" icon="fa fa-gear">
+            <x-dashboard.sidebar-link :current-path="$currentPath" href="/setting" icon="fa fa-gear">
                 সেটিংস
             </x-dashboard.sidebar-link>
 
-            <x-dashboard.sidebar-link href="/delete" icon="fa-regular fa-trash-can">
+            <x-dashboard.sidebar-link :current-path="$currentPath" href="/delete" icon="fa-regular fa-trash-can">
                 ডিলিট বায়োডাটা
             </x-dashboard.sidebar-link>
 
-            <x-dashboard.sidebar-link href="/logOut" icon="fa fa-sign-out">
+            <x-dashboard.sidebar-link :current-path="$currentPath" href="/logOut" icon="fa fa-sign-out">
                 লগআউট
             </x-dashboard.sidebar-link>
 

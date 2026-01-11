@@ -30,6 +30,8 @@
                     </div>
                     <!-- Content Cards -->
                     <div class="px-6 grid grid-cols-1 lg:grid-cols-3 gap-5 mb-10">
+                        <div class="text-xs text-red-500">
+</div>
                         {{-- card 1 --}}
                         <x-dashboard.simple-card number="0" title="কানেকশন রয়েছে"
                             desc="প্রতিটি বায়োডাটার যোগাযোগের তথ্য দেখতে ১টি কানেকশন প্রয়োজন।" btnLink="/connection"
