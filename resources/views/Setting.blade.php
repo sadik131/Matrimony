@@ -47,7 +47,7 @@
                                 deleted your biodata.
                             </p>
 
-                            <div class="flex items-center mt-5">
+                            <div class="flex items-center mt-5 mb-0">
                                 <input type="checkbox" class="w-4 h-4 shrink-0" />
                                 <label class="text-sm text-slate-600 ml-3">
                                     I understand and would like to delete this biodata.
@@ -55,7 +55,7 @@
                             </div>
 
                             <x-dashboard.gradient-button>
-                                Delete Biodata
+                               Delete Biodata
                             </x-dashboard.gradient-button>
 
                         </form>

@@ -88,9 +88,17 @@
                                     </tr>
                                 </x-slot:body>
 
+                                
+
                             </x-dashboard.table>
                         </div>
+<div class="w-full md:justify-center mt-8 flex">
+                                    <a href="#"
+                                        class="w-full md:w-auto flex justify-center items-center gap-2 bg-linear-to-r from-teal-500 to-sky-500 text-white px-6 py-2 rounded-full hover:opacity-90">
 
+                                        প্যাকেজ ক্রয়ের সমস্ত তথ্য
+                                    </a>
+                                </div>
                     </div>
                 </div>
                 </x-layout>

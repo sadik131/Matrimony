@@ -30,7 +30,7 @@
                     <x-FormInput title="আপনার ইমেইল" type="email" place="example@email.com" />
                     <div>
                         <label class="block text-sm font-medium">আপনার প্রশ্ন</label>
-                        <textarea rows="5" class="w-full mt-1 p-2 border border-gray-300 rounded  outline-none"
+                        <textarea rows="5" class="w-full bg-white mt-1 p-2 border border-gray-300 rounded  outline-none"
                             placeholder="আপনার প্রশ্ন এখানে লিখুন..."></textarea>
                     </div>
                     <button type="submit" class="bg-teal-600 text-white px-6 py-2 rounded hover:bg-teal-700 transition">

@@ -49,7 +49,7 @@
                 <div class="w-full md:justify-center gap-5 flex my-2">
                     <a href="#"
                         class="w-full text-sm flex  justify-center items-center  gap-2 border border-teal-500 hover:bg-teal-500 hover:text-white text-teal-500 px-4 py-2 rounded-md hover:opacity-90">
-                        <i class="fa fa-star-o text-teal-500 "></i>
+                        <i class="fa-regular fa-star text-teal-500 "></i>
                         শর্টলিস্ট
                     </a>
                     <a href="#"
@@ -308,7 +308,7 @@
                 <div
                     class="max-w-3xl mx-auto  border border-t-2 border-gray-300 border-t-teal-500 mt-5  rounded-md overflow-hidden">
                     <div class="bg-white">
-                        <div class="text-center border-b p-4">
+                        <div class="text-center border-b border-[#E5E7EB] p-4">
                             <h2 class="text-xl font-bold text-teal-700">যোগাযোগ</h2>
                         </div>
                         <p class="text-center text-xs py-2">সতর্কতা - বিয়ের সিদ্ধান্ত নেয়ার পূর্বে স্থানীয়ভাবে খোঁজ নিয়ে
@@ -323,7 +323,7 @@
                             </a>
                             <a href="#"
                                 class="w-full md:w-1/3 mx-auto text-sm flex justify-center items-center gap-2 border my-3 text-teal-700 px-4 py-2 rounded-md hover:opacity-90">
-                                <i class="fa fa-youtube-play text-red-500"></i>
+                                <i class="fa-brands fa-youtube text-red-500"></i>
                                 যেভাবে যোগাযোগ তথ্য দেখবেন
                             </a>
                         </div>

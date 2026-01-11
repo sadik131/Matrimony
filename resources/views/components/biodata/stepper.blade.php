@@ -11,7 +11,7 @@
                 @click="step = i"
             >
                 <span
-                    class="w-7 h-7 relative z-10 mr-0 md:mr-6 rounded-full flex items-center justify-center text-sm border-2"
+                    class="w-7 h-7 relative z-10 mr-0 md:mr-3 rounded-full flex items-center justify-center text-sm border-2"
                     :class="step === i
                         ? 'border-[#28CFBA] bg-[#28CFBA] text-white'
                         : 'border-gray-300 bg-white text-gray-700'"

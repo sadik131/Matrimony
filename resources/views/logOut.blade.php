@@ -18,7 +18,7 @@
             ইমেইল দিয়ে লগইন করুন
         </x-email-button>
 
-        <p class="text-sm text-gray-600">
+        <p class="text-sm text-gray-600 mb-2">
             অ্যাকাউন্ট নেই?
         </p>
 

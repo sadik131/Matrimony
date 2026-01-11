@@ -96,7 +96,7 @@
                             <x-biodata.stepper />
 
                             <!-- Main Form Area -->
-                            <div class="md:col-span-3 space-y-6">
+                            <div class="md:col-span-3 space-y-6 mt-6 md:mt-0">
                                 <h2 class="text-xl border-[#E5E7EB] border-b pb-2 text-teal-700 hidden md:block"
                                     x-text="titles[step - 1]">
                                 </h2>

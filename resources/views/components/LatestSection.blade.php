@@ -57,7 +57,7 @@ $cards= [
 
 @endphp
 
-<div class="bg-[#0c1f35] py-6 my-10">r
+<div class="bg-[#0c1f35] py-6 my-10">
     <div class="max-w-6xl mx-auto px-4">
         <div class="flex justify-between items-center mb-6">
             <h2

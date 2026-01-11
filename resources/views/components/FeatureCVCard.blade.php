@@ -36,7 +36,7 @@
                     <td class="py-2 text-sm text-right">{{ $location }}</td>
                 </tr>
                 <tr class="border-b border-gray-200">
-                    <td class="py-2 text-sm border-r border-r-[#E5E7EB]">জন্মসন</td>
+                    <td class="py-2 text-sm border-r border-r-[#E5E7EB]">জন্মসন (আসল)</td>
                     <td class="py-2 text-sm text-right">{{ $birth_year }}</td>
                 </tr>
                 <tr class="border-b border-gray-200">
@@ -49,10 +49,14 @@
 
     <!-- Actions -->
     <div class="flex justify-center gap-7 pb-5">
-        <a href="{{ $details_link }}"
+        {{-- <a href="{{ $details_link }}"
            class="bg-teal-500 p-3 rounded-sm text-sm font-semibold text-white">
             বায়োডাটা দেখুন
-        </a>
+        </a> --}}
+
+        <div class="bg-teal-500 p-3 rounded-sm ">
+          <a href="{{ $details_link }}" class="text-sm font-semibold text-white">বায়োডাটা দেখুন</a>
+        </div>
 
         <button class="bg-teal-500 px-6 py-3 rounded-sm text-white">
             <i class="fa fa-heart"></i>

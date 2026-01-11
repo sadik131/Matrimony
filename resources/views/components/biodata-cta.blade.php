@@ -1,6 +1,5 @@
 <div>
-  <h2 class="py-5 pt-20 text-center text-xl md:text-3xl  text-teal-800">
-
+  <h2 class="py-5 pt-20 text-center text-xl md:text-3xl text-teal-800">
     সম্পূর্ণ বিনামূল্যে বায়োডাটা তৈরি করুণ এবং জমা দিন</h2>
   <div class="pt-5 max-w-6xl  mx-auto px-4 md:px-0 md:flex justify-center items-center gap-20">
   
@@ -9,7 +8,7 @@
       <a href="/bio-data">
         <button
         type="button"
-        class="w-full md:w-[400px] flex items-center justify-center gap-2 px-6 py-4 md:py-3 text-white text-lg md:text-x font-semibold rounded-full bg-gradient-to-r from-teal-500 to-sky-500  transition"
+        class="w-full md:w-[400px] flex items-center cursor-pointer justify-center gap-2 px-6 py-4 md:py-3 text-white text-lg md:text-x font-semibold rounded-full bg-gradient-to-r from-teal-500 to-sky-500  transition"
       >
         <span class="text-3xl font-bold">+</span>
         বায়োডাটা তৈরি করুন

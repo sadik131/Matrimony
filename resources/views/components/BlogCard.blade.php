@@ -35,7 +35,7 @@
     </div>
 
     <div class="px-6 py-4">
-        <a href="{{ $link }}" class="text-teal-500 text-sm font-medium">
+        <a href="{{ $link }}" class="text-teal-500 text-sm">
             Read More
         </a>
     </div>

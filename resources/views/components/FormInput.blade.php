@@ -9,5 +9,5 @@
     <label class="block text-sm font-medium">{{ $title }} </label>
 
     @endif
-    <input type={{ $type }} class="w-full mt-1 p-2 border border-gray-300 rounded outline-none" placeholder={{ $place }} />
+    <input type={{ $type }} class="w-full mt-1 p-2 border bg-white border-gray-300 rounded outline-none" placeholder={{ $place }} />
 </div>

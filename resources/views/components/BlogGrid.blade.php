@@ -4,7 +4,7 @@
 ])
 
 <div>
-    <h2 class="text-center text-xl md:text-3xl text-teal-800 pt-10 md:pt-20">
+    <h2 class="text-center text-xl md:text-3xl font-semibold text-teal-800 pt-10 md:pt-20">
         {{ $title }}
     </h2>
 

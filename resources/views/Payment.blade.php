@@ -38,7 +38,7 @@
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                                 <x-dashboard.pricingInput 
                                 lable="আপনার নাম"
-                                placeHolder="আপনার ই-মেইল"
+                                placeHolder="আপনার নাম লিখুন"
                                 />
                                 <x-dashboard.pricingInput 
                                 lable="আপনার ই-মেইল"
@@ -54,8 +54,6 @@
                                 placeHolder="000, 000, 000..."
                                 :show="true"
                                 />
-                                <div>
-                                </div>
                             </div>
 
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center mb-6">

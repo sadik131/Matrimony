@@ -40,11 +40,10 @@
                                 করে রাখতে পারেন। আর যদি সম্পূর্ণভাবে মুছে ফেলতে চান তাহলেই ডিলিট করুন। ডিলিট করলে বায়োডাটা
                                 আর ফেরত আনতে
                                 পারবেন না।</p>
-                            <div class="flex items-center">
+                            <div class="flex items-center mt-5 mb-0">
                                 <input type="checkbox" class="w-4 h-4 shrink-0" />
                                 <label class="text-sm text-slate-600 ml-3">আমি বুঝতে পেরেছি এবং নিশ্চিতভাবে বায়োডাটা ডিলিট
                                     করতে চাই।</label>
-
                             </div>
                             <x-dashboard.gradient-button>
                                 বায়োডাটা ডিলিট করুন

@@ -22,7 +22,7 @@
                 আমরা আমাদের গ্রাহকদের সন্তুষ্টি নিশ্চিত করতে অঙ্গীকারবদ্ধ, তবে কিছু সীমাবদ্ধতা রয়েছে।
             </p>
 
-            <x-StaticHeading>
+            <x-StaticHeading color="text-teal-700">
                 ১. পরিষেবার ধরণ
             </x-StaticHeading>
             <p class="mb-4 text-gray-700">
@@ -30,7 +30,7 @@
                 ইত্যাদি সুবিধা পান। একবার পরিষেবা সক্রিয় হয়ে গেলে সেটি ব্যবহারযোগ্য বিবেচিত হয়।
             </p>
 
-            <x-StaticHeading>
+            <x-StaticHeading color="text-teal-700">
                 ২. রিফান্ডের ক্ষেত্রে গ্রহণযোগ্য কারণসমূহ
             </x-StaticHeading>
             <ul class="list-none list-inside mb-4 text-gray-700">
@@ -39,7 +39,7 @@
                 <li>৩. অ্যাকাউন্ট সক্রিয় হওয়ার আগেই গ্রাহক রিফান্ডের জন্য অনুরোধ করলে।</li>
             </ul>
 
-            <x-StaticHeading>
+            <x-StaticHeading color="text-teal-700">
                 ৩. রিফান্ডের সময়সীমা
             </x-StaticHeading>
             <p class="mb-4 text-gray-700">
@@ -47,7 +47,7 @@
                 পেমেন্ট গেটওয়ে বা ব্যাংকজনিত কারণে বিলম্ব হতে পারে।
             </p>
 
-            <x-StaticHeading>
+            <x-StaticHeading color="text-teal-700">
                 ৪. রিফান্ডের জন্য যোগাযোগ
             </x-StaticHeading>
             <p class="mb-4 text-gray-700">
@@ -56,7 +56,7 @@
                 <span class="text-teal-600 font-medium">refund@yourmatrimony.com</span>
             </p>
 
-            <x-StaticHeading>
+            <x-StaticHeading color="text-teal-700">
                 ৫. পরিবর্তনের অধিকার
             </x-StaticHeading>
             <p class="mb-4 text-gray-700">
